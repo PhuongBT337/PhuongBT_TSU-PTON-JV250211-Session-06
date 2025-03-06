@@ -1,0 +1,128 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title .line {
+    width: 8px;
+    height: 30px;
+    background-color: orange;
+    position: absolute;
+    left: 10px;
+}
+
+.title h1 {
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.news-content {
+    width: 500px;
+}
+
+.news-content img {
+    width: 500px;
+}
+
+.news-content p,
+hr {
+    opacity: 0.7;
+}
+
+/* /////////////////////////////////////////// */
+/* bai-2 */
+.title-2 {
+    width: 500px;
+    background-image: linear-gradient(to bottom, rgb(235, 235, 235), white);
+}
+
+.title-2 .left-line {
+    width: 8px;
+    height: 25px;
+    background-color: orange;
+    position: absolute;
+    left: 10px;
+    top: 770px;
+}
+
+.title-2 h1 {
+    padding: 15px 15px 0 15px;
+}
+
+.news-content-2 {
+    width: 500px;
+}
+
+.news-content-2 .big-title {
+    position: absolute;
+    top: 1245px;
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(to top, black, rgb(255, 255, 255, 0));
+}
+
+.news-content-2 .big-title h3 {
+    color: white;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.news-content-2 img {
+    width: 100%;
+}
+
+/* /////////////////////////////////////////// */
+/* bai-3 */
+.news-3 {
+    width: 1000px;
+    background-color: #F2F2F2;
+    display: flex;
+}
+.news-3 .images{
+    padding: 20px;
+}
+.news-3 .images img{
+    width: 300px;
+    height: 200px;
+}
+.news-3 ul{
+    padding-left: 20px;
+}
+.right-content li a{
+    text-decoration: none;
+    color: rgb(7, 122, 164);
+}
+.news-3 .link a,i,span{
+    text-decoration: none;
+    color: gray;
+}
+.news-3 #eye{
+    margin-left: 20px;
+}
+/* //////////////////////////////////////////////// */
+/* bai-4 */
+.items{
+    border: 1px solid gray;
+    width: 60%;
+    border-radius: 5px;
+}
+.item-1,.item-2,.item-3{
+    border-bottom: 1px solid gray;
+}
+.item-1,.item-2,.item-3,.item-4 p{
+    padding: 15px;
+}
+.item-1{
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-2 .text-1{
+    font-weight: bold;
+    color: black;
+}
+
+.item-2 .text-2{
+    color: rgb(249, 110, 170);
+}
